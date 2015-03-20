@@ -3,6 +3,10 @@ html {
     font-family: "Menlo", "Ubuntu Mono", "Monaco", monospace;
 }
 
+body {
+    margin: 0;
+}
+
 #wrapper {
     margin: auto;
 }
