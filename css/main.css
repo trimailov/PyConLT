@@ -73,8 +73,8 @@ p {
     background-color: #FED871;
 }
 
-.speakers {
-    max-width: 800px;
+#speakers {
+    padding: 30px 0;
     margin: auto;
 }
 
@@ -124,7 +124,19 @@ p {
     padding: 10px;
 }
 
-.footer {
+#sponsor-wrapper {
+    padding: 30px 0;
+    background: #E6E8EA;
+}
+
+#footer p {
+    margin: 0;
+}
+
+#footer {
+    padding: 5px 0;
+    background: #20425D;
+    color: #FFF;
     text-align: center;
     font-size: 0.8em;
 }
