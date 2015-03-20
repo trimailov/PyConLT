@@ -20,6 +20,28 @@ p {
     text-align: center;
 }
 
+#top-wrapper {
+    padding: 100px 0;
+    background: #20425D;
+    color: #FFF;
+}
+
+@media (max-width: 450px){
+    #top-wrapper {
+        padding: 30px 0;
+        background: #20425D;
+        color: #FFF;
+    }
+}
+
+#top-wrapper a:link {
+    color: #DDD;
+}
+
+#top-wrapper a:visited {
+    color: #999;
+}
+
 #pycon-logo {
     max-width: 300px;
     display: block;
