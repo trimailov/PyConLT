@@ -37,17 +37,18 @@ p {
 .date-and-place button {
     width: 120px;
     height: 40px;
+    color: #424242;
     font-size: 1em;
     font-family: "Menlo", "Ubuntu Mono", "Monaco", monospace;
-    background-color: #EEE;
-    border: 1px solid #BBB;
+    background-color: #FFCD4A;
+    border: 0px;
     border-radius: 4px;
     text-align: center;
     vertical-align: middle;
 }
 
 .date-and-place button:hover {
-    background-color: #BBB;
+    background-color: #FED871;
 }
 
 .speakers {
