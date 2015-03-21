@@ -7,13 +7,13 @@ body {
     margin: 0;
 }
 
-#wrapper {
+#body-wrapper {
     margin: auto;
 }
 
 h1, h2, h3, h4, h5, h6 {
     text-align: center;
-    font-family: serif;
+    font-family: sans-serif;
 }
 
 p {
@@ -34,11 +34,11 @@ p {
     }
 }
 
-#top-wrapper a:link {
+a:link {
     color: #DDD;
 }
 
-#top-wrapper a:visited {
+a:visited {
     color: #999;
 }
 
@@ -73,8 +73,11 @@ p {
     background-color: #FED871;
 }
 
-#speakers {
+.content-wrapper {
     padding: 30px 0;
+}
+
+#speakers {
     margin: auto;
 }
 
@@ -102,17 +105,27 @@ p {
     font-size: 0.8em;
 }
 
-#sponsor-list {
+.tshirt {
+    max-width: 275px;
+    min-width: 275px;
+}
+
+.responsive-list {
     padding: 0;
-    list-style: none;
+    list-style-type: none;
     text-align: center;
     vertical-align: middle;
-    height: 120px;
 }
 
 @media only screen and (min-width: 550px){
-    #sponsor-list li {
+    .responsive-list li {
         display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 550px){
+    .responsive-list li {
+        display: block;
     }
 }
 
@@ -125,7 +138,6 @@ p {
 }
 
 #sponsor-wrapper {
-    padding: 30px 0;
     background: #E6E8EA;
 }
 
